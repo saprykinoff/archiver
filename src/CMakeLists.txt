@@ -1,0 +1,13 @@
+add_executable(
+        archiver
+        archiver.cpp
+        ArgParser.cpp
+        common.cpp
+        decoder.cpp
+        encoder.cpp
+        MySymbol.cpp
+        Reader.cpp
+        TrieBase.cpp
+        Tries.cpp
+        Writer.cpp
+)
